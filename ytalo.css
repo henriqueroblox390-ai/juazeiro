@@ -1,31 +1,32 @@
 body{
-    background-color: rgb(255, 255, 255);
+    /*alteração da cor do fundo do site*/
+    background: #ffffff; 
 }
-/*alterando cor do fundo*/
-
 h1{
-    color: rgb(0, 0, 0);
+    /*centarlisa o titalo e altera a cor pra preta*/
+    text-align: center;
+    color:black;
 }
-/* texto central*/
 p{
-    color: rgb(0, 0, 0);
-    win}
-
-/*paragrafos entral*/
-
-
-p strong{
-    color: rgb (21, 255, 0);
+    /*centralisa o texto, define a cor da letra, tamalho da letra e a fonte da letra*/
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-#logo{
-    /*altera o tamanho da logo*/
-    width: 200px;
-}
-#banner-principal{
-    width: 100%;
-} 
-.banner {
+ p strong{
+    /*alterar a cor do negrito*/
+    color: #00ff00; 
+ }
+ #logo{
+    /*altra o tamalho da logo*/
+    width:200px;
+ }
+ #banner-principal{
+    width:100%;
+ }
+ .banner{
     width: 250px;
     height: 250px;
     border-radius: 40%;
-}
+ }
