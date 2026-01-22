@@ -1,0 +1,56 @@
+body{
+    background-image: linear-gradient(45deg, Turquoise, white);
+}
+div{
+    background-color: rgb(219, 200, 200);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    padding: 50px;
+    border-radius: 24px;
+    color: black;
+}
+input{
+    padding: 5px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 15px;
+}
+button{
+    background-color: red;
+    font-size: 15px;
+    outline: none;
+    border-radius: 15px;
+    color:mediumblue ;
+
+}
+button:hover{
+    background-color:rgb(91, 2, 2);
+    cursor: pointer;
+
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.foto{
+    display: block;
+    margin: 0 auto, 20 auto;
+    border-radius: 15px;
+    max-width: 180px;
+}
+.cadastor{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+.cadastor a{
+    color: blue;
+    text-decoration:none;
+    font: bold;
+}
+.cadastor a :hover{
+    text-decoration: underline;
+}
