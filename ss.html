@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+    body{ background-color: rgb(143, 151, 151);
+     
+    }
+    .centro{
+          display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+    .teste{
+        text-align: center;
+        padding: 10px;
+        border-radius: 10px;
+        
+    }
+    .teste img{
+        width: 100%;
+        max-width: 200%;
+    height: auto;
+
+
+    }
+@media( Max-width:600px ){
+    .centro{
+        flex-direction: column;
+    }
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);background-color: rgb(131, 121, 121);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    border-radius: 18px;
+}
+.menu{
+ display: flex;
+ align-items: center;
+ padding: 10px;
+ height: 70px;
+ background-color: black;
+}
+.menu a{
+text-decoration: none;
+padding: 10px;
+color: rgb(10, 10, 255);
+text-align: center;
+}
+.imga{
+display: flex;
+border-radius: 20px;
+top: 20px;
+width: 9px;
+}
+
+.link {
+    margin-left: auto;
+    display: flex;
+}
+   </style>
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <nav class="menu"> 
+
+  <img src="logo.jpg" alt="">
+
+    <div class="link">
+
+    <a href="$">inicio</a>
+    <a href="$">foto</a>
+    <a href="$">noticias</a>
+    <a href="$">contato</a>
+    <a href="$">video</a>
+    
+</div>
+     </nav>
+<div class="centro">
+        <div class="teste">
+            <img src="yk1.jfif" alt="img1">
+            <p>FOGO</p>
+        </div> 
+             <div class="teste">
+            <img src="yk1.jfif" alt="img2">
+            <p>CHAMA</p>
+
+        </div>      
+         <div class="teste">
+            <img src="yk1.jfif" alt="img3">
+            <p>FF</p>
+         </div>
+         <div class="container">
+            <input type="date">
+         </div>
+
+</body>
+</html>
